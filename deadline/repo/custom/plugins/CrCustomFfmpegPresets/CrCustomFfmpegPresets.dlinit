@@ -1,0 +1,3 @@
+About=Ffmpeg presets plugin ultrafast no compression
+ConcurrentTasks=False
+CrCustomFfmpegPresetsExecutable=Q:/bin/windows/ffmpeg/ffmpeg.exe

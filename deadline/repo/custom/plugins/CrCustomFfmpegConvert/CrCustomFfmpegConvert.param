@@ -1,0 +1,27 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Convert ffmpeg simple one video format to another
+Description=Not configurable
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=False
+Description=Not configurable
+
+[CrCustomFfmpegConvertExecutable]
+Type=multilinemultifilename
+Category=Render executables
+CategoryOrder=0
+Index=0
+Label=Ffmpeg executable
+Description=The path to executable file used for rendering
+Default=Q:/bin/windows/ffmpeg/ffmpeg.exe
+

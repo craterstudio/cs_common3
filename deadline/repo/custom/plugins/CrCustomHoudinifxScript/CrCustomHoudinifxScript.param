@@ -1,0 +1,18 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Houdini flipbook
+Description=Not configurable
+
+[CrCustomHoudinifxScriptExecutable]
+Type=multilinemultifilename
+Category=Render executables
+CategoryOrder=0
+Index=0
+Label=Houdinifx script executable
+Description=The path to executable file used for rendering
+Default=C:/Program Files/Side Effects Software/Houdini {VERSION}/bin/houdinifx.exe
+

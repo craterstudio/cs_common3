@@ -1,0 +1,15 @@
+Plugin=Nuke
+Frames=1-1000
+Name=""
+Pool=qt
+Priority=100
+ChunkSize=1000
+PostJobScript=""
+OutputFilename0=""
+OutputDirectory0=""
+SynchronizeAllAuxiliaryFiles=false
+MachineLimit=1
+OverrideTaskFailureDetection=True
+FailureDetectionTaskErrors=3
+OverrideJobFailureDetection=True
+FailureDetectionJobErrors=2

@@ -1,0 +1,16 @@
+[InputFile]
+Type=string
+Label=Input File
+Description=Input file.
+Required=true
+DisableIfBlank=false
+DefaultValue=input.mov
+
+[OutputFile]
+Type=filename
+Label=Output File
+Description=Output file.
+Required=true
+DisableIfBlank=false
+DefaultValue=output.mp4
+

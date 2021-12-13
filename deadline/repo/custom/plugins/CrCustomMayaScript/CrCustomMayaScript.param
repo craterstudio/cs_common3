@@ -1,0 +1,18 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Maya playblast
+Description=Not configurable
+
+[CrCustomMayaScriptExecutable]
+Type=multilinemultifilename
+Category=Render executables
+CategoryOrder=0
+Index=0
+Label=Maya script executable
+Description=The path to executable file used for rendering
+Default=C:/Program Files/Autodesk/Maya{VERSION}/bin/MayaBatch.exe
+

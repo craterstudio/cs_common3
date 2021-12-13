@@ -1,0 +1,32 @@
+[InputFile]
+Type=string
+Label=Input File
+Description=Input file including counter.
+Required=true
+DisableIfBlank=false
+DefaultValue=RA_0000_CMP_comp_testseq_v001.%05d.exr
+
+[OutputFile]
+Type=filename
+Label=Output File
+Description=Output file.
+Required=true
+DisableIfBlank=false
+DefaultValue=output.mp4
+
+[StartNumber]
+Type=integer
+Label=Start frame number
+Description=Start frame number.
+Required=true
+DisableIfBlank=false
+DefaultValue=01002
+
+[FrameRate]
+Type=integer
+Label=Frame rate for this video
+Description=Frame rate for this video.
+Required=true
+DisableIfBlank=false
+DefaultValue=30
+

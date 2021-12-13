@@ -1,0 +1,26 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Noice Plugin for Deadline
+Description=Not configurable
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=True
+Description=Not configurable
+
+[Noice_RenderExecutable_5_2_2_1]
+Type=multilinemultifilename
+Category=Render Executables
+CategoryOrder=0
+Index=0
+Label=Noice 5.2.2.1 Executable
+Description=The path to the Noice executable file used for rendering. Enter alternative paths on separate lines.
+Default=Q:/resources/maya/plugins/mtoadeploy/2018_3.1.2.1/bin/noice.exe

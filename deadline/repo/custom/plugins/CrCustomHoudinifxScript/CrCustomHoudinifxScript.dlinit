@@ -1,0 +1,3 @@
+About=Houdinifx script
+ConcurrentTasks=False
+CrCustomHoudinifxScriptExecutable=C:\Program Files\Side Effects Software\Houdini {VERSION}\bin\houdinifx.exe

@@ -1,0 +1,88 @@
+[Version]
+Type=label
+Label=Version
+Category=Noice Info
+Index=0
+Description=The version of Noice to use to render
+Required=false
+DisableIfBlank=true
+
+[InputFile]
+Type=filename
+Label=Input File
+Category=Input
+Index=0
+Description=The main input file to process.
+Required=false
+DisableIfBlank=true
+
+[PatchRadius]
+Type=integer
+Minimum=0
+Maximum=9
+Label=Patch Radius
+Category=Noice Options
+Index=1
+Description=Neighborhood patch radius, size of pixel neighborhood to compare.
+Required=false
+DisableIfBlank=true
+
+[SearchRadius]
+Type=integer
+Minimum=0
+Maximum=16
+Label=Search Radius
+Category=Noice Options
+Index=2
+Description=Search radius, higher values mean a wider search for similar pixel neighborhoods.
+Required=false
+DisableIfBlank=true
+
+[Variance]
+Type=float
+Minimum=0
+Maximum=1
+Label=Variance
+Category=Noice Options
+Index=3
+Description=Variance threshold, higher values mean more aggressive denoising.
+Required=false
+DisableIfBlank=true
+
+[AdditionalFrames]
+Type=integer
+Minimum=0
+Maximum=2
+Label=Additional Frames
+Category=Noice Options
+Index=0
+Description=Additional frames before and after current frame to be used while denoising.
+Required=false
+DisableIfBlank=true
+
+[AdditionalAOVs]
+Type=string
+Label=Additional AOVs
+Category=Noice Options
+Index=0
+Description=Additional AOVs to be denoised in parallel to RGBA.
+Required=false
+DisableIfBlank=true
+
+[SkipExisting]
+Type=bool
+Label=Skip Existing
+Category=Noice Options
+Index=0
+Description=Skip existing files.
+Required=false
+DisableIfBlank=true
+
+[OutputFolder]
+Type=folder
+Label=Output Folder
+Category=Output
+Index=0
+Description=The filename as it exists on the network.
+Required=false
+DisableIfBlank=true

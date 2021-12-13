@@ -1,0 +1,7 @@
+# Copyright (c) 2020 Crater Studio
+#
+# ------------------------------------------------------------------------------
+
+configuration:
+    app_name: Root Panel
+    docs_url: "http://pipeline.crater.local/user_manual/tools/cr_rootpanel/"

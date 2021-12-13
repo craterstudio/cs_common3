@@ -1,0 +1,3 @@
+About=Maya script
+ConcurrentTasks=False
+CrCustomMayaScriptExecutable=C:\Program Files\Autodesk\Maya{VERSION}\bin\MayaBatch.exe

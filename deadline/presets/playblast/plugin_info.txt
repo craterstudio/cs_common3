@@ -1,0 +1,15 @@
+Version=9.1
+Threads=0
+RamUse=0
+BatchMode=True
+BatchModeIsMovie=True
+NukeX=False
+UseGpu=False
+ProxyMode=False
+EnforceRenderOrder=False
+ContinueOnError=False
+PerformanceProfiler=False
+SubmitScene=False
+PerformanceProfilerDir=
+Views=
+StackSize=0
